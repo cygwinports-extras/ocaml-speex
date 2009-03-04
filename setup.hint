@@ -1,0 +1,4 @@
+category: Audio OCaml
+requires: cygwin libspeex1 speex-devel ocaml
+sdesc: "OCaml speex bindings"
+ldesc: "This package contains an O'Caml interface for the Speex codec library."

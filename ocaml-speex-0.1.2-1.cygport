@@ -3,7 +3,6 @@ inherit ocaml
 DESCRIPTION="OCaml bindings for libspeex"
 HOMEPAGE="http://savonet.sourceforge.net/wiki/OCamlLibs"
 SRC_URI="mirror://sourceforge/savonet/${P}.tar.gz"
-PATCH_URI="0.1.0-ogg-deps.patch"
 
 src_compile() {
 	lndirs

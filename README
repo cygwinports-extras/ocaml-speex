@@ -3,18 +3,20 @@ ocaml-speex
 This package contains an O'Caml interface for the Speex codec library.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
   libspeex1-1.2rc1-1
-  ocaml-3.10.2-1
-  ocaml-ogg-0.3.0-1
+  ocaml-3.11.2-1
+  ocaml-ogg-0.3.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  flexdll-0.20-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.2-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -25,39 +27,21 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ocaml-speex-0.1.0-X-src.tar.bz2
+  unpack ocaml-speex-0.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ocaml-speex-0.1.0-X.cygport all
+  cygport ./ocaml-speex-0.1.2-X.cygport all
 
 This will create:
-  /usr/src/ocaml-speex-0.1.0-X-src.tar.bz2
-  /usr/src/ocaml-speex-0.1.0-X.tar.bz2
+  /usr/src/ocaml-speex-0.1.2-X-src.tar.bz2
+  /usr/src/ocaml-speex-0.1.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/speex/META
-  /usr/lib/ocaml/3.10/speex/libspeex_stubs.a
-  /usr/lib/ocaml/3.10/speex/speex.a
-  /usr/lib/ocaml/3.10/speex/speex.cma
-  /usr/lib/ocaml/3.10/speex/speex.cmi
-  /usr/lib/ocaml/3.10/speex/speex.cmx
-  /usr/lib/ocaml/3.10/speex/speex.cmxa
-  /usr/lib/ocaml/3.10/speex/speex.mli
-  /usr/lib/ocaml/3.10/stublibs/dllspeex_stubs.so
-  /usr/lib/ocaml/3.10/stublibs/dllspeex_stubs.so.owner
-  /usr/share/doc/ocaml-speex-0.1.0/COPYING
-  /usr/share/doc/ocaml-speex-0.1.0/Changes
-  /usr/share/doc/ocaml-speex-0.1.0/README
-
-------------------
-
 Port Notes:
 
------ version 0.1.0-1 -----
+----- version 0.1.2-1 -----
 Initial release for Cygwin.
 
 

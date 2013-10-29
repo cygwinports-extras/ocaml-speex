@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-speex"
 VERSION=0.2.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml speex bindings"
 DESCRIPTION="This package contains an OCaml interface for the Speex codec library."

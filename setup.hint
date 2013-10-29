@@ -1,4 +1,0 @@
-category: Audio OCaml
-requires: libspeex1 speex-devel ocaml-base ocaml-ogg
-sdesc: "OCaml speex bindings"
-ldesc: "This package contains an O'Caml interface for the Speex codec library."
